@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "pretest": "tsc",
-    "test": "jest",
+    "test": "jest --coverage",
+    "jest": "jest",
     "tsc": "tsc"
   },
   "repository": {
