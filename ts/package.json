@@ -1,0 +1,45 @@
+{
+  "name": "internals-visible-typescript",
+  "version": "1.0.0",
+  "description": "Demonstrate technique to simulate InternalsVisibleTo from C#",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "tsc",
+    "test": "jest",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmazzola/internals-visible-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "internal",
+    "internalsvisibleto",
+    "c#",
+    "csharp",
+    "testing"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Matt Mazzola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmazzola/internals-visible-typescript/issues"
+  },
+  "homepage": "https://github.com/mattmazzola/internals-visible-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^19.2.4",
+    "jest": "^20.0.4",
+    "typescript": "^2.3.4"
+  },
+  "jest": {
+    "testMatch": ["**/dist/**/?(*.)(spec|test).js?(x)"],
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}
