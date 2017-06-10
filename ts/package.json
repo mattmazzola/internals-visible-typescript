@@ -26,7 +26,7 @@
     "dist"
   ],
   "author": "Matt Mazzola",
-  "license": "MIT",
+  "license": "unlicense",
   "bugs": {
     "url": "https://github.com/mattmazzola/internals-visible-typescript/issues"
   },
